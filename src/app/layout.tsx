@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+
+const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-3980525484161116";
 
 export const metadata: Metadata = {
   title: {
@@ -37,14 +40,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3980525484161116"
-          crossOrigin="anonymous"
-        ></script>
-      </head>
       <body className="font-sans antialiased">
+        {adsenseClient ? (
+          <Script
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
+        ) : null}
         <Header />
         <main>{children}</main>
         <Footer />

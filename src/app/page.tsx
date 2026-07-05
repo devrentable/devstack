@@ -4,6 +4,8 @@ import { AdSlot } from "@/components/AdSlot";
 import { ToolCard } from "@/components/ToolCard";
 import { categories, tools } from "@/lib/tools";
 
+const homeAdSlot = process.env.NEXT_PUBLIC_ADSENSE_HOME_SLOT;
+
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -38,7 +40,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-6xl px-4 pb-8 sm:px-6 lg:px-8">
-        <AdSlot id="home-top-ad" label="Home superior" />
+        <AdSlot id="home-top-ad" label="Home superior" slot={homeAdSlot} />
       </section>
 
       <section id="herramientas" className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">

@@ -33,11 +33,12 @@ export const tools: ToolMeta[] = [
     slug: "generador-htaccess",
     title: "Generador .htaccess",
     shortTitle: ".htaccess",
-    description: "Planificado para generar reglas de HTTPS, www, redirecciones, CORS, cache, gzip y bloqueo de IP.",
+    description: "Genera reglas de HTTPS, www, WordPress, redirecciones, CORS, cache, gzip, hotlinking y seguridad basica.",
     category: "Apache",
     categories: ["Apache", "WordPress", "Magento", "Moodle"],
     Icon: FileCode2,
-    status: "planned"
+    href: "/tools/generador-htaccess",
+    status: "available"
   },
   {
     slug: "generador-csp",

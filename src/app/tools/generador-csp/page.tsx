@@ -4,6 +4,8 @@ import { ArrowLeft } from "lucide-react";
 import { AdSlot } from "@/components/AdSlot";
 import { CspGenerator } from "@/components/tools/CspGenerator";
 
+const cspAdSlot = process.env.NEXT_PUBLIC_ADSENSE_CSP_SLOT;
+
 export const metadata: Metadata = {
   title: "Generador CSP",
   description: "Construye una Content Security Policy para Apache, Nginx o header HTTP con dominios permitidos por directiva."
@@ -31,7 +33,7 @@ export default function CspGeneratorPage() {
         </div>
 
         <div className="space-y-4">
-          <AdSlot id="csp-generator-ad" label="Anuncio CSP" />
+          <AdSlot id="csp-generator-ad" label="Anuncio CSP" slot={cspAdSlot} />
           <div className="rounded-lg border border-slate-800 bg-panel/65 p-4 text-sm leading-6 text-slate-400">
             Empieza en modo estricto y abre solo los dominios necesarios. Prueba la CSP en staging antes de llevarla a produccion.
           </div>
