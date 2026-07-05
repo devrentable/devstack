@@ -63,3 +63,25 @@ select:focus {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+
+.info-content h2 {
+  color: #edf4ff;
+  font-size: 1.125rem;
+  font-weight: 650;
+}
+
+.info-content p,
+.info-content li {
+  line-height: 1.75;
+}
+
+.info-content a {
+  color: #3ddc97;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.info-content ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
