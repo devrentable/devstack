@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { AdSlot } from "@/components/AdSlot";
 import { DockerComposeBuilder } from "@/components/tools/DockerComposeBuilder";
-
-const dockerAdSlot = process.env.NEXT_PUBLIC_ADSENSE_DOCKER_SLOT;
 
 export const metadata: Metadata = {
   title: "Docker Compose Builder",
@@ -33,7 +30,6 @@ export default function DockerComposeBuilderPage() {
         </div>
 
         <div className="space-y-4">
-          <AdSlot id="docker-compose-builder-ad" label="Anuncio Docker Compose" slot={dockerAdSlot} />
           <div className="rounded-lg border border-slate-800 bg-panel/65 p-4 text-sm leading-6 text-slate-400">
             Todo se genera en tu navegador. No hay backend ni se envia tu configuracion a ningun servidor.
           </div>

@@ -3,8 +3,6 @@ import "./globals.css";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
-const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT ?? "ca-pub-3980525484161116";
-
 export const metadata: Metadata = {
   title: {
     default: "DevStack Tools",
@@ -40,6 +38,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <meta name="google-site-verification" content="yF93z4M585LwG0Nfi5vAyj9PP4enTFk9mWxEhYDRyGs" />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
@@ -51,13 +50,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
         {/* End Google Tag Manager */}
-        {adsenseClient ? (
-          <script
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-            crossOrigin="anonymous"
-          />
-        ) : null}
       </head>
       <body className="font-sans antialiased">
         {/* Google Tag Manager (noscript) */}

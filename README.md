@@ -2,7 +2,7 @@
 
 DevStack Tools es la home de una futura web de herramientas gratuitas para desarrolladores, sysadmins y equipos que trabajan con WordPress, Magento, Moodle, Apache, Nginx, Docker, JSON e IA.
 
-Esta primera versión no implementa las herramientas todavía. Presenta el catálogo, el posicionamiento del proyecto y un placeholder de monetización preparado para incorporar AdSense más adelante mediante el componente `AdSlot`.
+Esta primera versión presenta el catálogo, el posicionamiento del proyecto y las primeras herramientas disponibles.
 
 ## Stack
 
@@ -48,18 +48,6 @@ El boton de Ko-fi usa `NEXT_PUBLIC_KOFI_URL`. Copia `.env.example` a `.env.local
 ```bash
 NEXT_PUBLIC_KOFI_URL=https://ko-fi.com/devrentable
 ```
-
-AdSense usa el publisher `NEXT_PUBLIC_ADSENSE_CLIENT` y un slot por ubicacion. Crea los bloques de anuncio en AdSense, copia sus IDs numericos y configura estas variables en local y en Vercel:
-
-```bash
-NEXT_PUBLIC_ADSENSE_CLIENT=ca-pub-3980525484161116
-NEXT_PUBLIC_ADSENSE_HOME_SLOT=
-NEXT_PUBLIC_ADSENSE_CSP_SLOT=
-NEXT_PUBLIC_ADSENSE_DOCKER_SLOT=
-NEXT_PUBLIC_ADSENSE_HTACCESS_SLOT=
-```
-
-Si un slot queda vacio, la web mantiene el placeholder y no intenta llamar a `adsbygoogle.push`.
 
 ## Build de producción
 

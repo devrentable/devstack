@@ -42,8 +42,8 @@ export default function AboutPage() {
       <section className="space-y-3">
         <h2>Financiacion</h2>
         <p>
-          El proyecto puede sostenerse con donaciones, patrocinios y publicidad no intrusiva. Ese apoyo ayuda a mantener las
-          herramientas gratis y a priorizar nuevas utilidades.
+          El proyecto puede sostenerse con donaciones y patrocinios. Ese apoyo ayuda a mantener las herramientas gratis y a
+          priorizar nuevas utilidades.
         </p>
       </section>
     </InfoPage>

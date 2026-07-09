@@ -33,14 +33,10 @@ export default function PrivacyPage() {
       </section>
 
       <section className="space-y-3">
-        <h2>Cookies, analitica y publicidad</h2>
+        <h2>Cookies y analitica</h2>
         <p>
-          DevStack Tools puede incorporar servicios de terceros para medir uso, mejorar la web o mostrar publicidad, incluido Google
-          AdSense. Estos servicios pueden usar cookies, identificadores o tecnologias similares segun sus propias politicas.
-        </p>
-        <p>
-          Si se activa publicidad personalizada, Google y sus partners pueden usar informacion de visitas anteriores para mostrar
-          anuncios relevantes. Puedes consultar y gestionar la personalizacion de anuncios desde la configuracion de anuncios de Google.
+          DevStack Tools puede incorporar servicios de terceros para medir uso y mejorar la web. Estos servicios pueden usar cookies,
+          identificadores o tecnologias similares segun sus propias politicas.
         </p>
       </section>
 
@@ -50,15 +46,15 @@ export default function PrivacyPage() {
           <li>Prestar y mantener las herramientas publicadas.</li>
           <li>Mejorar la estabilidad, seguridad y rendimiento del sitio.</li>
           <li>Entender que utilidades resultan mas utiles para priorizar nuevas funciones.</li>
-          <li>Financiar el proyecto mediante donaciones, patrocinios o publicidad.</li>
+          <li>Financiar el proyecto mediante donaciones o patrocinios.</li>
         </ul>
       </section>
 
       <section className="space-y-3">
         <h2>Servicios de terceros</h2>
         <p>
-          El sitio puede enlazar o integrar servicios externos como Vercel, Google AdSense, Ko-fi o GitHub. Al interactuar con esos
-          servicios, se aplican tambien sus condiciones y politicas de privacidad.
+          El sitio puede enlazar o integrar servicios externos como Vercel, Ko-fi o GitHub. Al interactuar con esos servicios, se
+          aplican tambien sus condiciones y politicas de privacidad.
         </p>
       </section>
 

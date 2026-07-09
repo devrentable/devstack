@@ -2,6 +2,7 @@ import {
   Bot,
   Braces,
   Container,
+  FileBox,
   FileCode2,
   ShieldCheck,
   type LucideIcon
@@ -10,6 +11,7 @@ import {
 export type ToolSlug =
   | "generador-htaccess"
   | "generador-csp"
+  | "generador-dockerfile"
   | "docker-compose-builder"
   | "formateador-json"
   | "generador-prompts-tecnicos";
@@ -60,6 +62,17 @@ export const tools: ToolMeta[] = [
     categories: ["Docker"],
     Icon: Container,
     href: "/tools/docker-compose-builder",
+    status: "available"
+  },
+  {
+    slug: "generador-dockerfile",
+    title: "Generador Dockerfile",
+    shortTitle: "Dockerfile",
+    description: "Genera Dockerfiles para Node.js, PHP + Apache, Python y frontends estaticos con Nginx.",
+    category: "Docker",
+    categories: ["Docker"],
+    Icon: FileBox,
+    href: "/tools/generador-dockerfile",
     status: "available"
   },
   {

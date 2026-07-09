@@ -1,10 +1,7 @@
 import Image from "next/image";
 import { Boxes, Search, Sparkles } from "lucide-react";
-import { AdSlot } from "@/components/AdSlot";
 import { ToolCard } from "@/components/ToolCard";
 import { categories, tools } from "@/lib/tools";
-
-const homeAdSlot = process.env.NEXT_PUBLIC_ADSENSE_HOME_SLOT;
 
 export default function Home() {
   return (
@@ -37,10 +34,6 @@ export default function Home() {
             />
           </div>
         </div>
-      </section>
-
-      <section className="mx-auto max-w-6xl px-4 pb-8 sm:px-6 lg:px-8">
-        <AdSlot id="home-top-ad" label="Home superior" slot={homeAdSlot} />
       </section>
 
       <section id="herramientas" className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
