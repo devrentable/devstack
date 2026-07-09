@@ -5,7 +5,10 @@ import { DockerfileGenerator } from "@/components/tools/DockerfileGenerator";
 
 export const metadata: Metadata = {
   title: "Generador Dockerfile",
-  description: "Genera Dockerfiles para Node.js, PHP + Apache, Python y frontends estaticos con Nginx."
+  description: "Genera Dockerfiles para Node.js, PHP + Apache, Python y frontends estaticos con Nginx.",
+  alternates: {
+    canonical: "/tools/generador-dockerfile"
+  }
 };
 
 export default function DockerfileGeneratorPage() {

@@ -5,7 +5,10 @@ import { CspGenerator } from "@/components/tools/CspGenerator";
 
 export const metadata: Metadata = {
   title: "Generador CSP",
-  description: "Construye una Content Security Policy para Apache, Nginx o header HTTP con dominios permitidos por directiva."
+  description: "Construye una Content Security Policy para Apache, Nginx o header HTTP con dominios permitidos por directiva.",
+  alternates: {
+    canonical: "/tools/generador-csp"
+  }
 };
 
 export default function CspGeneratorPage() {

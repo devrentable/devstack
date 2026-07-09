@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { Boxes, Search, Sparkles } from "lucide-react";
 import { ToolCard } from "@/components/ToolCard";
 import { categories, tools } from "@/lib/tools";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/"
+  }
+};
 
 export default function Home() {
   return (

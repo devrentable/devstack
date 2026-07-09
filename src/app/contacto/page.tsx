@@ -4,7 +4,10 @@ import { InfoPage } from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title: "Contacto",
-  description: "Contacta con DevStack Tools para sugerencias, errores o colaboraciones."
+  description: "Contacta con DevStack Tools para sugerencias, errores o colaboraciones.",
+  alternates: {
+    canonical: "/contacto"
+  }
 };
 
 export default function ContactPage() {

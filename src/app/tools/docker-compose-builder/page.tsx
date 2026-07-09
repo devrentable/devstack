@@ -5,7 +5,10 @@ import { DockerComposeBuilder } from "@/components/tools/DockerComposeBuilder";
 
 export const metadata: Metadata = {
   title: "Docker Compose Builder",
-  description: "Crea un docker-compose.yml para stacks locales con app, base de datos, Redis, phpMyAdmin y Mailpit."
+  description: "Crea un docker-compose.yml para stacks locales con app, base de datos, Redis, phpMyAdmin y Mailpit.",
+  alternates: {
+    canonical: "/tools/docker-compose-builder"
+  }
 };
 
 export default function DockerComposeBuilderPage() {

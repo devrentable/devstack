@@ -3,7 +3,10 @@ import { InfoPage } from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title: "Sobre el proyecto",
-  description: "Conoce el objetivo de DevStack Tools."
+  description: "Conoce el objetivo de DevStack Tools.",
+  alternates: {
+    canonical: "/sobre-el-proyecto"
+  }
 };
 
 export default function AboutPage() {

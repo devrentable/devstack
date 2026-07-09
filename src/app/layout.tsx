@@ -21,12 +21,19 @@ export const metadata: Metadata = {
     "Magento",
     "Moodle"
   ],
-  metadataBase: new URL("https://devstack.tools"),
+  metadataBase: new URL("https://devstack-eight.vercel.app"),
   openGraph: {
     title: "DevStack Tools",
     description: "Herramientas rápidas para desarrolladores que no quieren perder la tarde.",
+    url: "/",
+    siteName: "DevStack Tools",
     type: "website",
     locale: "es_ES"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DevStack Tools",
+    description: "Herramientas rápidas para desarrolladores que no quieren perder la tarde."
   }
 };
 

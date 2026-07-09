@@ -5,7 +5,10 @@ import { HtaccessGenerator } from "@/components/tools/HtaccessGenerator";
 
 export const metadata: Metadata = {
   title: "Generador .htaccess",
-  description: "Genera reglas .htaccess para HTTPS, www, WordPress, cache, gzip, CORS, hotlinking y seguridad basica."
+  description: "Genera reglas .htaccess para HTTPS, www, WordPress, cache, gzip, CORS, hotlinking y seguridad basica.",
+  alternates: {
+    canonical: "/tools/generador-htaccess"
+  }
 };
 
 export default function HtaccessGeneratorPage() {

@@ -3,7 +3,10 @@ import { InfoPage } from "@/components/InfoPage";
 
 export const metadata: Metadata = {
   title: "Politica de privacidad",
-  description: "Politica de privacidad de DevStack Tools."
+  description: "Politica de privacidad de DevStack Tools.",
+  alternates: {
+    canonical: "/privacidad"
+  }
 };
 
 export default function PrivacyPage() {
