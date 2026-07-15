@@ -79,11 +79,12 @@ export const tools: ToolMeta[] = [
     slug: "formateador-json",
     title: "Formateador JSON",
     shortTitle: "JSON",
-    description: "Planificado para validar, formatear y minificar JSON en el navegador.",
+    description: "Valida, formatea, minifica y ordena claves JSON directamente en el navegador.",
     category: "JSON",
     categories: ["JSON", "IA"],
     Icon: Braces,
-    status: "planned"
+    href: "/tools/formateador-json",
+    status: "available"
   },
   {
     slug: "generador-prompts-tecnicos",

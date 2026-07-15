@@ -16,11 +16,11 @@ Esta primera versión presenta el catálogo, el posicionamiento del proyecto y l
 
 - Docker Compose Builder
 - Generador CSP
+- Formateador JSON
 
 ## Herramientas planificadas
 
 - Generador `.htaccess`
-- Formateador y minificador JSON
 - Generador de prompts técnicos
 
 ## Instalación
