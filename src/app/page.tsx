@@ -26,7 +26,7 @@ export default function Home() {
             </p>
             <p className="mt-4 max-w-2xl text-base leading-7 text-slate-400">
               Una web gratuita para preparar utilidades de Apache, Nginx, Docker, JSON, IA, WordPress, Magento y Moodle.
-              Empezamos con la home y una lista clara de herramientas que iremos construyendo.
+              Empezamos con la home y una lista clara de herramientas que iremos construyendo....
             </p>
           </div>
 
